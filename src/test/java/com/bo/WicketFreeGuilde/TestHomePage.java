@@ -4,6 +4,9 @@ import org.apache.wicket.util.tester.WicketTester;
 import org.junit.Before;
 import org.junit.Test;
 
+import com.bo.WicketFreeGuide.HomePage;
+import com.bo.WicketFreeGuide.WicketApplication;
+
 /**
  * Simple test using the WicketTester
  */

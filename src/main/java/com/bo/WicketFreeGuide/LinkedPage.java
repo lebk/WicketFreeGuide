@@ -1,4 +1,4 @@
-package com.bo.WicketFreeGuilde;
+package com.bo.WicketFreeGuide;
 import org.apache.wicket.markup.html.WebPage;
 import org.apache.wicket.markup.html.basic.Label;
 import org.apache.wicket.markup.html.link.Link;
