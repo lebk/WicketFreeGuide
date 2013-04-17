@@ -2,6 +2,7 @@ package com.bo.WicketFreeGuilde;
 
 import org.apache.wicket.request.mapper.parameter.PageParameters;
 import org.apache.wicket.markup.html.basic.Label;
+import org.apache.wicket.markup.html.link.Link;
 import org.apache.wicket.markup.html.WebPage;
 
 public class HomePage extends WebPage {
@@ -12,7 +13,14 @@ public class HomePage extends WebPage {
 
 		add(new Label("helloMessage", "Hello World"));
 
-		// TODO Add your page's components here
+	  add(new Link("id"){
+
+      @Override
+      public void onClick()
+      {
+      this.setResponsePage(LinkedPage.class);  
+      }});
+	  
 
     }
 }
